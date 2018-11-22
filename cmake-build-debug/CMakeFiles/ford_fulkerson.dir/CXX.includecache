@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/main.cpp
+iostream
+-
+limits.h
+-
+string.h
+-
+queue
+-
+iostream
+-
+list
+-
+

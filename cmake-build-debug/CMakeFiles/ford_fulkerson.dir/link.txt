@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ford_fulkerson.dir/main.cpp.o  -o ford_fulkerson 

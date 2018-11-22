@@ -16,6 +16,21 @@ using namespace std;
 int V;
 int E;
 
+class Edge {
+public:
+    int u, v;
+    int length;
+
+    Edge() {}
+
+    Edge(int _u, int _v, int _length) {
+        u = _u;
+        v = _v;
+        length = _length;
+    };
+};
+
+
 int** alloc(int V) {
     auto ** array = new int*[V];
     for(int i = 0; i < V; ++i)
@@ -117,6 +132,6 @@ int** read_matrix(char* file) {
 int main(int argc, char* argv[])
 {
     int **graph = read_matrix(argv[1]);
-    cout << "Maximum flow " << fordFulkerson(graph, 0, 3);
+    cout << "Maximum flow " << fordFulkerson(graph, 0, 1);
     return 0;
 }

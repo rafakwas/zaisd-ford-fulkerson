@@ -57,27 +57,27 @@ include CMakeFiles/ford_fulkerson.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ford_fulkerson.dir/flags.make
 
-CMakeFiles/ford_fulkerson.dir/main.cpp.o: CMakeFiles/ford_fulkerson.dir/flags.make
-CMakeFiles/ford_fulkerson.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ford_fulkerson.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ford_fulkerson.dir/main.cpp.o -c /home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/main.cpp
+CMakeFiles/ford_fulkerson.dir/list.cpp.o: CMakeFiles/ford_fulkerson.dir/flags.make
+CMakeFiles/ford_fulkerson.dir/list.cpp.o: ../list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ford_fulkerson.dir/list.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ford_fulkerson.dir/list.cpp.o -c /home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/list.cpp
 
-CMakeFiles/ford_fulkerson.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ford_fulkerson.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/main.cpp > CMakeFiles/ford_fulkerson.dir/main.cpp.i
+CMakeFiles/ford_fulkerson.dir/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ford_fulkerson.dir/list.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/list.cpp > CMakeFiles/ford_fulkerson.dir/list.cpp.i
 
-CMakeFiles/ford_fulkerson.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ford_fulkerson.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/main.cpp -o CMakeFiles/ford_fulkerson.dir/main.cpp.s
+CMakeFiles/ford_fulkerson.dir/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ford_fulkerson.dir/list.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/list.cpp -o CMakeFiles/ford_fulkerson.dir/list.cpp.s
 
 # Object files for target ford_fulkerson
 ford_fulkerson_OBJECTS = \
-"CMakeFiles/ford_fulkerson.dir/main.cpp.o"
+"CMakeFiles/ford_fulkerson.dir/list.cpp.o"
 
 # External object files for target ford_fulkerson
 ford_fulkerson_EXTERNAL_OBJECTS =
 
-ford_fulkerson: CMakeFiles/ford_fulkerson.dir/main.cpp.o
+ford_fulkerson: CMakeFiles/ford_fulkerson.dir/list.cpp.o
 ford_fulkerson: CMakeFiles/ford_fulkerson.dir/build.make
 ford_fulkerson: CMakeFiles/ford_fulkerson.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ford_fulkerson"

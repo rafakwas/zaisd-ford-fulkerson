@@ -123,32 +123,32 @@ ford_fulkerson/fast:
 	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/build
 .PHONY : ford_fulkerson/fast
 
-main.o: main.cpp.o
+list.o: list.cpp.o
 
-.PHONY : main.o
+.PHONY : list.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/main.cpp.o
-.PHONY : main.cpp.o
+list.cpp.o:
+	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/list.cpp.o
+.PHONY : list.cpp.o
 
-main.i: main.cpp.i
+list.i: list.cpp.i
 
-.PHONY : main.i
+.PHONY : list.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/main.cpp.i
-.PHONY : main.cpp.i
+list.cpp.i:
+	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/list.cpp.i
+.PHONY : list.cpp.i
 
-main.s: main.cpp.s
+list.s: list.cpp.s
 
-.PHONY : main.s
+.PHONY : list.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/main.cpp.s
-.PHONY : main.cpp.s
+list.cpp.s:
+	$(MAKE) -f CMakeFiles/ford_fulkerson.dir/build.make CMakeFiles/ford_fulkerson.dir/list.cpp.s
+.PHONY : list.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ford_fulkerson"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
 .PHONY : help
 
 

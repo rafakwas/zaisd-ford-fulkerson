@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/main.cpp">
+		<Unit filename="/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/list.cpp">
 			<Option target="ford_fulkerson"/>
 		</Unit>
 		<Unit filename="/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/CMakeLists.txt">

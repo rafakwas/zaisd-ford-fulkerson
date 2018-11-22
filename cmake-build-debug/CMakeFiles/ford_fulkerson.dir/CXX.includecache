@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/main.cpp
+/home/ralphigi/Dokumenty/studia/zb/ford-fulkerson/list.cpp
 iostream
 -
 limits.h

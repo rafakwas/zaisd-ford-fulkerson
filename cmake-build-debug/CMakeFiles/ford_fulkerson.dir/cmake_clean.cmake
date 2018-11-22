@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ford_fulkerson.dir/main.cpp.o"
+  "CMakeFiles/ford_fulkerson.dir/list.cpp.o"
   "ford_fulkerson.pdb"
   "ford_fulkerson"
 )

@@ -14,6 +14,7 @@ using namespace std;
 #include <vector>
 
 int V;
+int S;
 int T;
 
 class FlowEdge
@@ -102,9 +103,9 @@ private:
     FlowNetwork G;
     int s;
     int t;
-    bool* marked; // true if s->v path in residual network
-    FlowEdge** edgeTo; // last edge on s->v path
-    int max_flow; // value of flow
+    bool* marked;
+    FlowEdge** edgeTo;
+    int max_flow;
     bool hasAugmentingPath(FlowNetwork G, int s, int t) {
         edgeTo = new FlowEdge*[G.V];
         marked = new bool[G.V];
@@ -147,6 +148,9 @@ FlowNetwork read_edges(char* file) {
             flowNetwork = tmp;
             counter++;
         } else if (counter == 1) {
+            if (!(iss >> S)) { break; }
+            counter++;
+        } else if (counter == 2) {
             if (!(iss >> T)) { break; }
             counter++;
         } else {
@@ -160,7 +164,7 @@ FlowNetwork read_edges(char* file) {
 int main(int argc, char* argv[])
 {
     FlowNetwork flowNetwork = read_edges(argv[1]);
-    FordFulkerson fordFulkerson = FordFulkerson(flowNetwork,0,T);
+    FordFulkerson fordFulkerson = FordFulkerson(flowNetwork,S,T);
     fordFulkerson.solve();
     cout << "Maximum flow " << fordFulkerson.value();
     return 0;

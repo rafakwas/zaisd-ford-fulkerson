@@ -14,7 +14,8 @@ using namespace std;
 #include <vector>
 
 int V;
-int E;
+int S;
+int T;
 
 class Edge {
 public:
@@ -109,8 +110,11 @@ int** read_matrix(char* file) {
             if (file_line == 0) {
                 V = atoi(line.c_str());
             } else if (file_line == 1) {
-                E = atoi(line.c_str());
+                S = atoi(line.c_str());
                 matrix = alloc(V);
+            }
+            else if (file_line ==2) {
+                T = atoi(line.c_str());
             } else {
                 while (getline(ss, item, ' ')) {
                     splittedStrings.push_back(item);
@@ -132,6 +136,6 @@ int** read_matrix(char* file) {
 int main(int argc, char* argv[])
 {
     int **graph = read_matrix(argv[1]);
-    cout << "Maximum flow " << fordFulkerson(graph, 0, 1);
+    cout << "Maximum flow " << fordFulkerson(graph, S, T);
     return 0;
 }
